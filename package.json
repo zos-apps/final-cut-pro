@@ -1,5 +1,5 @@
 {
-  "name": "@anthropic/final-cut-pro",
+  "name": "@zos-apps/final-cut-pro",
   "version": "1.0.0",
   "type": "module",
   "main": "./dist/index.js",
@@ -11,9 +11,16 @@
     "icon": "🎬",
     "category": "creative",
     "description": "Professional video editing",
-    "permissions": ["storage.local", "audio", "video"],
+    "permissions": [
+      "storage.local",
+      "audio",
+      "video"
+    ],
     "window": {
-      "defaultSize": { "width": 1200, "height": 800 },
+      "defaultSize": {
+        "width": 1200,
+        "height": 800
+      },
       "resizable": true
     }
   },
@@ -30,5 +37,23 @@
     "@types/react-dom": "^18.3.0",
     "tsup": "^8.3.5",
     "typescript": "^5.7.2"
-  }
+  },
+  "description": "Professional video editing",
+  "homepage": "https://zos-apps.github.io/final-cut-pro",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zos-apps/final-cut-pro.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zos-apps/final-cut-pro/issues"
+  },
+  "author": "Hanzo AI",
+  "license": "MIT",
+  "keywords": [
+    "zos",
+    "app",
+    "final-cut-pro",
+    "macos",
+    "desktop"
+  ]
 }

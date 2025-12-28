@@ -1,50 +1,56 @@
 # 🎬 Final Cut Pro
 
-Professional video editing
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/zos-apps/final-cut-pro/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Docs](https://img.shields.io/badge/docs-online-purple.svg)](https://zos-apps.github.io/final-cut-pro)
 
-## Category
-`creative`
+> Professional video editing
+
+**[Documentation](https://zos-apps.github.io/final-cut-pro)** • **[App Store](https://zos-apps.github.io/app-store)** • **[All Apps](https://github.com/zos-apps)**
 
 ## Installation
 
 ```bash
-npm install @anthropic/final-cut-pro
-# or
-pnpm add @anthropic/final-cut-pro
+npm install github:zos-apps/final-cut-pro
 ```
+
+Or install via the [zOS App Store](https://zos-apps.github.io/app-store).
 
 ## Usage
 
 ```tsx
-import App from '@anthropic/final-cut-pro';
+import FinalCutPro from '@zos-apps/final-cut-pro';
 
-function MyComponent() {
-  return <App onClose={() => console.log('closed')} />;
+function App() {
+  return <FinalCutPro />;
 }
 ```
 
-## Development
+## Features
 
-```bash
-# Install dependencies
-pnpm install
+- Native zOS window integration
+- Dark mode support
 
-# Build
-pnpm build
+- Context menu actions
+- Menu bar integration
 
-# Watch mode
-pnpm dev
-```
+## Category
 
-## zOS Integration
+**Creative**
 
-This app is designed to run within zOS, a web-based operating system. It follows the zOS app specification with:
+## Permissions
 
-- Standalone React component
-- TypeScript support
-- Tailwind CSS styling
-- Window management integration
+- `storage.local`
+- `audio`
+- `video`
+
+## Links
+
+- [Documentation](https://zos-apps.github.io/final-cut-pro)
+- [GitHub Repository](https://github.com/zos-apps/final-cut-pro)
+- [Report Issues](https://github.com/zos-apps/final-cut-pro/issues)
+- [All zOS Apps](https://github.com/zos-apps)
 
 ## License
 
-MIT
+MIT © [Hanzo AI](https://hanzo.ai)
