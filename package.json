@@ -22,7 +22,22 @@
         "height": 800
       },
       "resizable": true
-    }
+    },
+    "about": "Professional video editing software for filmmakers.",
+    "help": [
+      "Import media to browser",
+      "Drag clips to timeline",
+      "Add effects from sidebar"
+    ],
+    "docs": "https://zos-apps.github.io/final-cut-pro",
+    "site": "https://github.com/zos-apps/final-cut-pro",
+    "features": [
+      "Timeline editing",
+      "Effects",
+      "Color grading",
+      "Audio editing",
+      "Export options"
+    ]
   },
   "scripts": {
     "build": "tsup",
@@ -55,5 +70,13 @@
     "final-cut-pro",
     "macos",
     "desktop"
-  ]
+  ],
+  "funding": {
+    "type": "github",
+    "url": "https://github.com/sponsors/zos-apps"
+  },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org/"
+  }
 }
