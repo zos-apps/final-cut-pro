@@ -37,7 +37,25 @@
       "Color grading",
       "Audio editing",
       "Export options"
-    ]
+    ],
+    "screenshots": {
+      "hero": "screenshots/hero.png",
+      "images": [
+        "screenshots/1-main.png",
+        "screenshots/2-feature.png"
+      ]
+    },
+    "downloads": {
+      "web": "https://zos-apps.github.io/final-cut-pro"
+    },
+    "featured": false,
+    "tags": [
+      "utility",
+      "final cut pro"
+    ],
+    "releaseDate": "2024-12-28",
+    "support": "https://github.com/zos-apps/final-cut-pro/issues",
+    "changelog": "https://github.com/zos-apps/final-cut-pro/releases"
   },
   "scripts": {
     "build": "tsup",
