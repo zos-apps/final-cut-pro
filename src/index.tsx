@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 
 interface FinalCutProProps {
   onClose: () => void;
@@ -22,10 +22,10 @@ const mockClips: Clip[] = [
   { id: '6', name: 'Music', duration: 20, color: '#a855f7', track: 2, start: 0 },
 ];
 
-const FinalCutPro: React.FC<FinalCutProProps> = ({ onClose }) => {
+const FinalCutPro: React.FC<FinalCutProProps> = ({ onClose: _onClose }) => {
   const [clips] = useState(mockClips);
   const [selectedClip, setSelectedClip] = useState<string | null>(null);
-  const [playhead, setPlayhead] = useState(0);
+  const [playhead, _setPlayhead] = useState(0);
   const [isPlaying, setIsPlaying] = useState(false);
 
   const totalDuration = 20;
